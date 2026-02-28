@@ -1,0 +1,11 @@
+{
+  "projektName": "schweissaufsicht",
+  "displayName": "SchweißAufsicht",
+  "domain": "schweissaufsicht.app",
+  "appDomain": "app.schweissaufsicht.app",
+  "zielgruppe": "Schweißaufsichtspersonen (IWE/IWT/IWS/EWE/EWT/EWS/SFI) in DACH — 30.000-50.000 aktive Personen als One-Man-QM-Abteilung",
+  "problem": "Einziger IWE im Betrieb ertrinkt in Papierkram (WPS prüfen, Qualifikationen checken, NCRs bearbeiten, Inspektionen freigeben), haftet persönlich bei Fehlern, neue ISO 14731 (2023) verschärft Anforderungen",
+  "loesung": "Digitaler Arbeitsplatz mit ISO 14731 Aufgabenmatrix (23+ Aufgabenbereiche), Tagesansicht, Mobile-First für Werkstatt, Unterschrift-Workflow, lückenloser Audit-Trail",
+  "branche": "Schweißtechnik / Metallbau / EN 1090 Compliance",
+  "createdAt": "2026-02-28"
+}
