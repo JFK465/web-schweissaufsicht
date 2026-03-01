@@ -2,7 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import { ChevronDown, Menu, X, Flame } from "lucide-react";
+import Image from "next/image";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/seo-config";
 
@@ -197,7 +198,12 @@ export function Navbar() {
           href="/"
           className="flex items-center gap-2 font-bold text-xl text-primary"
         >
-          <Flame className="h-6 w-6" />
+          <Image
+            src="/logo-icon.svg"
+            alt="SchweißAufsicht"
+            width={28}
+            height={28}
+          />
           <span>SchweißAufsicht</span>
         </Link>
 

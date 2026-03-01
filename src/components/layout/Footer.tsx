@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Flame, Shield, Flag, Lock } from "lucide-react";
+import Image from "next/image";
+import { Shield, Flag, Lock } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -76,7 +77,12 @@ export function Footer() {
               href="/"
               className="flex items-center gap-2 font-bold text-lg mb-4"
             >
-              <Flame className="h-5 w-5 text-primary" />
+              <Image
+                src="/logo-dark.svg"
+                alt="SchweißAufsicht"
+                width={24}
+                height={24}
+              />
               <span>SchweißAufsicht</span>
             </Link>
             <p className="text-background/60 text-sm">
