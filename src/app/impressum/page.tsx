@@ -20,7 +20,7 @@ export default function ImpressumPage() {
           </h2>
           <p>SchweißAufsicht</p>
           <p>Deutschland</p>
-          <p>E-Mail: hallo@schweissaufsicht.app</p>
+          <p>E-Mail: hallo@schweissaufsicht-software.de</p>
         </section>
 
         <section>

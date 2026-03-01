@@ -292,7 +292,7 @@ export function SchweissaufsichtSoftwareClient() {
                 {submitError && (
                   <p className="text-destructive text-sm">
                     Fehler beim Senden. Bitte schreib uns direkt an
-                    hallo@schweissaufsicht.app.
+                    hallo@schweissaufsicht-software.de.
                   </p>
                 )}
 

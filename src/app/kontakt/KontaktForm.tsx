@@ -65,10 +65,10 @@ export function KontaktForm() {
                 <div>
                   <div className="font-semibold mb-1">E-Mail</div>
                   <a
-                    href="mailto:hallo@schweissaufsicht.app"
+                    href="mailto:hallo@schweissaufsicht-software.de"
                     className="text-primary hover:underline"
                   >
-                    hallo@schweissaufsicht.app
+                    hallo@schweissaufsicht-software.de
                   </a>
                 </div>
               </div>
@@ -181,7 +181,7 @@ export function KontaktForm() {
                 {error && (
                   <p className="text-destructive text-sm">
                     Fehler beim Senden. Bitte schreib uns direkt an
-                    hallo@schweissaufsicht.app.
+                    hallo@schweissaufsicht-software.de.
                   </p>
                 )}
 

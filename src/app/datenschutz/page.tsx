@@ -20,7 +20,8 @@ export default function DatenschutzPage() {
           </h2>
           <p>
             Verantwortlich für die Datenverarbeitung auf dieser Website ist
-            SchweißAufsicht, Deutschland. Kontakt: hallo@schweissaufsicht.app
+            SchweißAufsicht, Deutschland. Kontakt:
+            hallo@schweissaufsicht-software.de
           </p>
         </section>
 
@@ -75,7 +76,7 @@ export default function DatenschutzPage() {
             <li>Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)</li>
           </ul>
           <p className="mt-3">
-            Anfragen richte bitte an: hallo@schweissaufsicht.app
+            Anfragen richte bitte an: hallo@schweissaufsicht-software.de
           </p>
         </section>
 
