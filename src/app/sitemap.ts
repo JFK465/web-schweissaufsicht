@@ -135,24 +135,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     // Dynamische Blog-Posts
     ...blogPosts,
-    // Legal
-    {
-      url: `${base}/datenschutz`,
-      lastModified: new Date(),
-      priority: 0.3,
-      changeFrequency: "yearly",
-    },
-    {
-      url: `${base}/impressum`,
-      lastModified: new Date(),
-      priority: 0.3,
-      changeFrequency: "yearly",
-    },
-    {
-      url: `${base}/agb`,
-      lastModified: new Date(),
-      priority: 0.3,
-      changeFrequency: "yearly",
-    },
   ];
 }

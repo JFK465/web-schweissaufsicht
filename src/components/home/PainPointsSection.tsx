@@ -7,7 +7,7 @@ import {
   FileX,
   Gavel,
   Layers,
-  Phone,
+  WifiOff,
 } from "lucide-react";
 import { fadeInUp, staggerContainer } from "@/lib/animations";
 
@@ -43,7 +43,7 @@ const pains = [
       "Die neue ISO 14731 (2023) definiert über 23 Aufgabenbereiche. Ohne digitale Aufgabenmatrix behältst du den Überblick kaum.",
   },
   {
-    icon: Phone,
+    icon: WifiOff,
     title: "Kein mobiler Zugriff in der Werkstatt",
     description:
       "Der Montag, 6:30 Uhr auf dem Hallenflur — und du brauchst eine WPS-Nummer, die nur im Büro-PC liegt.",
