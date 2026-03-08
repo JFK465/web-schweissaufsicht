@@ -250,7 +250,7 @@ export default function MetallbauSchweissaufsichtPage() {
               },
               {
                 label: "Ausführungsklassen EXC1-EXC4",
-                href: "/wissen/ausfuehrungsklassen",
+                href: "/wissen/ausführungsklassen",
               },
               { label: "Stahlbau EXC3", href: "/stahlbau-schweissaufsicht" },
             ].map((link) => (

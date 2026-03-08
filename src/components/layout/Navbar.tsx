@@ -154,7 +154,7 @@ const navItems: NavDropdown[] = [
       },
       {
         name: "Ausführungsklassen EXC1-EXC4",
-        href: "/wissen/ausfuehrungsklassen",
+        href: "/wissen/ausführungsklassen",
         description: "EXC2 vs EXC3 Unterschied",
       },
       {

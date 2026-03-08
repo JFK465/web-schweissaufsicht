@@ -102,7 +102,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
     },
     {
-      url: `${base}/wissen/ausfuehrungsklassen`,
+      url: `${base}/wissen/ausführungsklassen`,
       lastModified: new Date(),
       priority: 0.7,
       changeFrequency: "monthly",

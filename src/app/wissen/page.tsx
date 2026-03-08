@@ -51,7 +51,7 @@ const wissenArtikel = [
   },
   {
     title: "Ausführungsklassen EXC1 bis EXC4",
-    href: "/wissen/ausfuehrungsklassen",
+    href: "/wissen/ausführungsklassen",
     desc: "EXC2 vs. EXC3: Unterschiede, NDT-Anforderungen und Schweißaufsichts-Qualifikation erklärt.",
     readTime: 7,
     kategorie: "Grundlagen",

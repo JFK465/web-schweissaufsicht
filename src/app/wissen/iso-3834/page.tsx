@@ -235,7 +235,7 @@ export default function Iso3834Page() {
                 { label: "EN 1090 Audit", href: "/wissen/en-1090-audit" },
                 {
                   label: "Ausführungsklassen",
-                  href: "/wissen/ausfuehrungsklassen",
+                  href: "/wissen/ausführungsklassen",
                 },
               ].map((link) => (
                 <Link

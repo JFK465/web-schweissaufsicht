@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   title: "Ausführungsklassen EXC1–EXC4: NDT & Qualifikation",
   description:
     "EXC2 vs. EXC3: Unterschiede bei NDT-Anforderungen, Schweißaufsichts-Qualifikation und WPS-Abdeckung praxisnah erklärt für IWE, IWT und IWS.",
-  alternates: { canonical: `${siteConfig.url}/wissen/ausfuehrungsklassen` },
+  alternates: { canonical: `${siteConfig.url}/wissen/ausführungsklassen` },
   openGraph: {
     type: "article",
     title: "Ausführungsklassen EXC1–EXC4: NDT & Qualifikation",
     description:
       "EXC2 vs. EXC3: Unterschiede bei NDT-Anforderungen, Schweißaufsichts-Qualifikation und WPS-Abdeckung praxisnah erklärt.",
-    url: `${siteConfig.url}/wissen/ausfuehrungsklassen`,
+    url: `${siteConfig.url}/wissen/ausführungsklassen`,
   },
   twitter: {
     card: "summary_large_image",
@@ -29,18 +29,18 @@ export const metadata: Metadata = {
   },
 };
 
-export default function AusfuehrungsklassenPage() {
+export default function AusführungsklassenPage() {
   return (
     <>
       <WebPageSchema
         title="Ausführungsklassen EXC1 bis EXC4 — Schweißaufsicht-Anforderungen"
         description="Unterschiede bei NDT, Qualifikation und WPS-Abdeckung je Ausführungsklasse."
-        url="/wissen/ausfuehrungsklassen"
+        url="/wissen/ausführungsklassen"
       />
       <BreadcrumbSchema
         items={[
           { label: "Wissen", href: "/wissen" },
-          { label: "Ausführungsklassen", href: "/wissen/ausfuehrungsklassen" },
+          { label: "Ausführungsklassen", href: "/wissen/ausführungsklassen" },
         ]}
       />
       <div className="container-custom py-4">
@@ -49,7 +49,7 @@ export default function AusfuehrungsklassenPage() {
             { label: "Wissen", href: "/wissen" },
             {
               label: "Ausführungsklassen",
-              href: "/wissen/ausfuehrungsklassen",
+              href: "/wissen/ausführungsklassen",
             },
           ]}
         />

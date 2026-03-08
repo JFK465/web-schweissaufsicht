@@ -260,7 +260,7 @@ export function ExcNavigatorClient() {
                   Neu berechnen
                 </button>
                 <Button asChild className="flex-1">
-                  <Link href="/wissen/ausfuehrungsklassen">
+                  <Link href="/wissen/ausführungsklassen">
                     Mehr zu Ausführungsklassen
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>

@@ -200,7 +200,7 @@ export default function En1090AuditPage() {
                 { label: "ISO 9606-1", href: "/wissen/iso-9606-1" },
                 {
                   label: "Ausführungsklassen",
-                  href: "/wissen/ausfuehrungsklassen",
+                  href: "/wissen/ausführungsklassen",
                 },
               ].map((link) => (
                 <Link
