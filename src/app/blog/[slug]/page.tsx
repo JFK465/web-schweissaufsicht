@@ -96,10 +96,10 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           )}
           <div className="mt-10 bg-primary/5 border border-primary/20 rounded-xl p-6">
-            <h3 className="font-semibold mb-2">
+            <h2 className="font-semibold mb-2">
               SchweißAufsicht — digitale Dokumentation für
               Schweißaufsichtspersonen
-            </h3>
+            </h2>
             <p className="text-muted-foreground text-sm mb-4">
               ISO 14731-Aufgabenmatrix, automatische 6-Monats-Erinnerungen,
               WPS-Register und NCR-Prozess — alles in einer App. Audit-Paket auf

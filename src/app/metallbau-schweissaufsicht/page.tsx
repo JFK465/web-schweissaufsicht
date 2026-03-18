@@ -107,9 +107,9 @@ export default function MetallbauSchweissaufsichtPage() {
               </Button>
             </div>
             <div className="bg-muted/30 rounded-2xl p-8 space-y-4">
-              <h3 className="font-semibold text-lg">
+              <h2 className="font-semibold text-lg">
                 3 häufige Probleme im Metallbau
-              </h3>
+              </h2>
               {[
                 {
                   icon: Clock,
