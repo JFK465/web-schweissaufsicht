@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { siteConfig } from "@/lib/seo-config";
 
 interface DropdownItem {
   name: string;
@@ -216,9 +215,6 @@ export function Navbar() {
 
         {/* Desktop CTAs */}
         <div className="hidden lg:flex items-center gap-3">
-          <Button variant="ghost" size="sm" asChild>
-            <a href={siteConfig.appUrl}>Anmelden</a>
-          </Button>
           <Button size="sm" asChild className="bg-primary hover:bg-primary/90">
             <Link href="/schweissaufsicht-software#beta-anmeldung">
               Kostenlos testen
@@ -278,9 +274,6 @@ export function Navbar() {
               </div>
             ))}
             <div className="pt-4 space-y-2 border-t">
-              <Button variant="outline" className="w-full" asChild>
-                <a href={siteConfig.appUrl}>Anmelden</a>
-              </Button>
               <Button className="w-full bg-primary hover:bg-primary/90" asChild>
                 <Link
                   href="/schweissaufsicht-software#beta-anmeldung"

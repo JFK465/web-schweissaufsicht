@@ -3,7 +3,6 @@ export const siteConfig = {
   description:
     "Digitaler Arbeitsplatz für IWE, IWT und IWS: ISO 14731 Aufgabenmatrix, Schweißer-Qualifikationen, Audit-Trail. Mobile-First für die Werkstatt. Jetzt kostenlos testen.",
   url: "https://schweissaufsicht-software.de",
-  appUrl: "https://app.schweissaufsicht-software.de",
   ogImage: "/og.png",
   keywords: [
     "Schweißaufsicht Software",
