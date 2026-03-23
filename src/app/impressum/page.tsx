@@ -18,16 +18,21 @@ export default function ImpressumPage() {
           <h2 className="text-xl font-bold text-foreground mb-3">
             Angaben gemäß § 5 TMG
           </h2>
-          <p>SchweißAufsicht</p>
+          <p>Jonas Krüger</p>
+          <p>Einzelunternehmen</p>
+          <p>Meisenweg 13</p>
+          <p>78465 Konstanz</p>
           <p>Deutschland</p>
-          <p>E-Mail: hallo@schweissaufsicht-software.de</p>
+          <p className="mt-2">E-Mail: hallo@schweissaufsicht-software.de</p>
         </section>
 
         <section>
           <h2 className="text-xl font-bold text-foreground mb-3">
             Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
           </h2>
-          <p>SchweißAufsicht-Team, Deutschland</p>
+          <p>Jonas Krüger</p>
+          <p>Meisenweg 13</p>
+          <p>78465 Konstanz</p>
         </section>
 
         <section>
@@ -70,7 +75,7 @@ export default function ImpressumPage() {
           </p>
         </section>
 
-        <p className="text-sm">Stand: Februar 2026</p>
+        <p className="text-sm">Stand: März 2026</p>
       </div>
     </div>
   );
