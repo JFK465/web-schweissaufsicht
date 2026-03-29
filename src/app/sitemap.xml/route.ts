@@ -103,7 +103,7 @@ function buildEntries(): SitemapEntry[] {
       changefreq: "monthly",
     },
     {
-      url: `${base}/wissen/ausführungsklassen`,
+      url: `${base}/wissen/ausfuehrungsklassen`,
       lastmod: now,
       priority: 0.7,
       changefreq: "monthly",

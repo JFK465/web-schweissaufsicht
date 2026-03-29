@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Ausführungsklassen EXC1–EXC4: NDT & Qualifikation",
   description:
     "EXC2 vs. EXC3: Unterschiede bei NDT-Anforderungen, Schweißaufsichts-Qualifikation und WPS-Abdeckung praxisnah erklärt für IWE, IWT und IWS.",
-  alternates: { canonical: `${siteConfig.url}/wissen/ausführungsklassen` },
+  alternates: { canonical: `${siteConfig.url}/wissen/ausfuehrungsklassen` },
   openGraph: {
     type: "article",
     title: "Ausführungsklassen EXC1–EXC4: NDT & Qualifikation",
