@@ -20,3 +20,16 @@ export const siteConfig = {
 };
 
 export type SiteConfig = typeof siteConfig;
+
+export const COMPANY = {
+  name: "Jonas Krüger",
+  type: "Einzelunternehmen",
+  street: "Meisenweg 13",
+  zip: "78465",
+  city: "Konstanz",
+  country: "Deutschland",
+  email: "info@schweissaufsicht-software.de",
+  fallbackEmail: "info@jfkconsulting.de",
+  ustHinweis:
+    "Kleinunternehmer gemäß § 19 UStG — daher wird keine Umsatzsteuer ausgewiesen.",
+} as const;
